@@ -3,6 +3,7 @@ const p = new Promise((resolve, reject) => {
   setTimeout(() => {
     // reject("--- Oops ---");
     resolve('>>> Success! <<<');
+    reject('<<< Fail! >>>')
   }, 2000);
 });
 
